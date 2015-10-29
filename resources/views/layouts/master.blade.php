@@ -17,7 +17,7 @@
     <meta name="description" content="Project Demo">
     <meta name="keywords" content="keywords,here">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href='/css/app.css'>
+    <link rel="stylesheet" href="{{ asset('/css/app.css')  }}">
 </head>
 <body>
 @include('pages.nav')
