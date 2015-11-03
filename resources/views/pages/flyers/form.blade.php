@@ -13,11 +13,6 @@
 
 </div>
 
-<div class="form-group">
-    <label class="control-label" for="name">Name:</label>
-    <input type="text" class="form-control" name="name" id="name"  placeholder=" {{ old('name') }}">
-
-</div>
 
 <div class="form-group">
     <label class="control-label" for="zip">Zip/Postal Code:</label>
