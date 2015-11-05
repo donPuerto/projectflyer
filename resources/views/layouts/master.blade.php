@@ -18,6 +18,7 @@
     <meta name="keywords" content="keywords,here">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('/css/app.css')  }}">
+    <link rel="stylesheet" href="{{ asset('/css/libs.css')  }}">
 </head>
 <body>
 @include('pages.nav')
@@ -31,5 +32,16 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="{{ asset('/js/libs.js') }}"></script>
+<script>
+    swal({
+            title: "Error!",
+            text: "Here's my error message!",
+            type: "error",
+            confirmButtonText: "Cool"
+        });
+
+</script>
+
 </body>
 </html>

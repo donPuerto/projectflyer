@@ -1,6 +1,6 @@
 @inject('countries', 'App\Http\Utilities\Country')
 
-
+{{ csrf_field() }}
 <div class="form-group">
     <label class="control-label" for="street">Street:</label>
     <input type="text" class="form-control" name="street" id="street"  placeholder=" {{ old('street') }}">
@@ -58,11 +58,7 @@
 
 </div>
 
-<div class="form-group">
-    <label class="control-label" for="photos">Photos:</label>
-    <input type="file" class="form-control" name="photos" id="photos"  placeholder=" {{ old('photos') }}">
 
-</div>
 
 
 <div class="form-group">
